@@ -16,22 +16,22 @@ PyTorch implementation of state-of-the-art music zeroshot model
 
 with `Zeroshot Tag (1126) Supervision`
 
-- **CNN1D/GLOVE** : Zero-shot Learning for Audio-based Music Classification and Tagging, Choi et al., 2016 [[arxiv](https://arxiv.org/abs/1907.02670)]
-- **TaggingTransformer/GLOVE** : Implementation by this repo
-- **CNN1D/MusicalWordEmbedding** : Will be Updated
-- **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
+- CNN1D/GLOVE : Zero-shot Learning for Audio-based Music Classification and Tagging, Choi et al., 2019 [[arxiv](https://arxiv.org/abs/1907.02670)]
+- TaggingTransformer/GLOVE : Implementation by this repo
+- CNN1D/MusicalWordEmbedding : Will be Updated
+- TaggingTransformer/MusicalWordEmbedding : Will be Updated
 
 with `Tagging Tag (50) Supervision`
-
-- **CNN1D/GLOVE** : Implementation by this repo
-- **TaggingTransformer/GLOVE** : Implementation by this repo
-- **CNN1D/MusicalWordEmbedding** : Will be Updated
-- **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
+ㄴ
+- CNN1D/GLOVE : Implementation by this repo
+- TaggingTransformer/GLOVE : Implementation by this repo
+- CNN1D/MusicalWordEmbedding : Will be Updated
+- TaggingTransformer/MusicalWordEmbedding : Will be Updated
     
 with `Zeroshot Tag/Artist/Track (1126, ~30K, ~0.5M) Supervision`
 
-- **CNN1D/MusicalWordEmbedding** : Will be Updated
-- **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
+- CNN1D/MusicalWordEmbedding : Will be Updated
+- TaggingTransformer/MusicalWordEmbedding : Will be Updated
 
 ## Requirements
 - pytorch-lightning==1.5.5 (important!)
