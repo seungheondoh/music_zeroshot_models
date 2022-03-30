@@ -8,11 +8,11 @@ PyTorch implementation of state-of-the-art music zeroshot model
 - The music database for this repository is GTZAN (very small!)
 
 ## Quick Start
-1. Download Word Model ([glove](https://nlp.stanford.edu/data/glove.42B.300d.zip))
+1. Download Word Model ([glove](https://nlp.stanford.edu/data/glove.42B.300d.zip)) or ([Musical Word Embedding - Will be updated](#))
 2. Download Pretrained Zeroshot Model with `mkdir /dataset/pretrained` ([zenodo](https://zenodo.org/record/6395456))
 3. Run `Query by Tag` Notebook File with GTZAN Dataset(1.34G)([notebook](https://github.com/SeungHeonDoh/music_zeroshot_models/blob/master/notebook/Query_by_Tag.ipynb))
 
-## Available Models 
+## Available Models
 
 `with Zeroshot Tag (1126) Supervision`
 
@@ -23,7 +23,10 @@ PyTorch implementation of state-of-the-art music zeroshot model
 
 - *CNN1D/GLOVE* : Implementation by this repo
 - *TaggingTransformer/GLOVE* : Implementation by this repo
-    
+
+```
+Musical Word Embedding Model will be updated
+```
 
 ## Requirements
 - pytorch-lightning==1.5.5 (important!)
