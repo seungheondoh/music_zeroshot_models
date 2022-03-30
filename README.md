@@ -1,4 +1,4 @@
-# State-of-the-art Music Tagging Models
+# State-of-the-art Music ZeroShot Models
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 PyTorch implementation of state-of-the-art music zeroshot model
@@ -9,27 +9,32 @@ PyTorch implementation of state-of-the-art music zeroshot model
 
 ## Quick Start
 1. Download Word Model ([glove](https://nlp.stanford.edu/data/glove.42B.300d.zip), [MusicalWordEmbedding-WIP](#))
-2. Download Pretrained Zeroshot Model `mkdir /dataset/pretrained` ([zenodo]())
-3. Run `Query by Tag` Notebook File with GTZAN Dataset(1.34G)([notebook]())
+2. Download Pretrained Zeroshot Model with `mkdir /dataset/pretrained` ([zenodo](https://zenodo.org/record/6395456))
+3. Run `Query by Tag` Notebook File with GTZAN Dataset(1.34G)([notebook](https://github.com/SeungHeonDoh/music_zeroshot_models/blob/master/notebook/Query_by_Tag.ipynb))
 
-## Available Models (Zeroshot Tag (1126) Supervision)
+## Available Models 
+
+with `Zeroshot Tag (1126) Supervision`
+
 - **CNN1D/GLOVE** : Zero-shot Learning for Audio-based Music Classification and Tagging, Choi et al., 2016 [[arxiv](https://arxiv.org/abs/1907.02670)]
 - **TaggingTransformer/GLOVE** : Implementation by this repo
 - **CNN1D/MusicalWordEmbedding** : Will be Updated
 - **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
 
-## Available Models (Tagging Tag (50) Supervision)
+with `Tagging Tag (50) Supervision`
+
 - **CNN1D/GLOVE** : Implementation by this repo
 - **TaggingTransformer/GLOVE** : Implementation by this repo
 - **CNN1D/MusicalWordEmbedding** : Will be Updated
 - **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
+    
+with `Zeroshot Tag/Artist/Track (1126, ~30K, ~0.5M) Supervision`
 
-## Available Models (Zeroshot Tag/Artist/Track (1126, ~30K, ~0.5M) Supervision)
 - **CNN1D/MusicalWordEmbedding** : Will be Updated
 - **TaggingTransformer/MusicalWordEmbedding** : Will be Updated
 
 ## Requirements
-- pytorch-lightning==1.4.9 (important!)
+- pytorch-lightning==1.5.5 (important!)
 - torch==1.7.1 (Please install it according to your [CUDA version](https://pytorch.org/get-started/previous-versions/#linux-and-windows-4).)
 ```
 conda create -n YOUR_ENV_NAME python=3.7
